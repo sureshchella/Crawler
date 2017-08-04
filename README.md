@@ -4,7 +4,7 @@ Crawl and Extract the data from website and Parse, Process it further to push it
 
 Following is the folder hierarchy:
 
-![Alt text](F:/Suresh/Isentia/Structure.JPG?raw=true "Optional Title")
+![Alt text](F:/Suresh/Isentia/Structure.JPG?raw=true "Project Hierarchy")
 
 #Crawler.py:
 

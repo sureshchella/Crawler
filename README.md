@@ -4,7 +4,7 @@ Crawl and Extract the data from website and Parse, Process it further to push it
 
 Following is the folder hierarchy:
 
-![ScreenShot](https://github.com/sureshchella/Crawler/tree/master/Snippets/Structure.JPG)
+![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Snippets/Structure.JPG)
 
 #Crawler.py:
 
@@ -26,5 +26,5 @@ consists of pipeline and mongodb parameters
 
 
 Once done, below is the snippet of the document structure in MongoDB:
-![ScreenShot](https://github.com/sureshchella/Crawler/tree/master/Snippets/Mongo.JPG)
+![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Snippets/Mongo.JPG)
 

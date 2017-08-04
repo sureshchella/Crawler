@@ -43,7 +43,7 @@ Once everything is done, Lets query the results.
    Which will prompt for search keyword as shown below:
    ![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Snippets/Results-2.JPG)
    
-   If there is results found - respective messages are shown (similar to above snippet). 
+   If the search result is none - respective messages are shown (similar to above snippet). 
    
    If there are results found:
    ![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Snippets/Result-1.JPG)

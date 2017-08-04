@@ -28,3 +28,22 @@ consists of pipeline and mongodb parameters
 Once done, below is the snippet of the document structure in MongoDB:
 ![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Snippets/Mongo.JPG)
 
+#Query the stored data
+
+Once everything is done, Lets query the results. 
+
+1. CrawlAPI.py - connects to the mongodb and queries the results using PyMongo. 
+
+2. MongoDB Index Configuration:
+   For text searches - "text" index was added to the columns in the document:
+   db.articles.createIndex( { "Topic": "text" } )
+   db.articles.createIndex( { "Snippet": "text" } )
+   
+3. Python code is called by:  python crawlAPI (using console)
+   Which will prompt for search keyword as shown below:
+   ![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Snippets/Results-2.JPG)
+   
+   If there is results found - respective messages are shown (similar to above snippet). 
+   
+   If there are results found:
+   ![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Snippets/Result-1.JPG)

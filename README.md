@@ -23,3 +23,8 @@ captures data from crawler.py and process it further. Once done, data gets inser
 
 consists of pipeline and mongodb parameters
 
+
+
+Once done, below is the snippet of the document structure in MongoDB:
+![ScreenShot](https://github.com/sureshchella/Crawler/blob/master/Mongo.JPG)
+
